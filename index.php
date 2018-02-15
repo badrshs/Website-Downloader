@@ -35,6 +35,7 @@
                 <form class="uk-margin-medium-top uk-margin-xlarge-bottom uk-search uk-search-default"  method="post" action="job.php?v=<?php echo rand();?>">
                     <button type="submit" class="uk-search-icon-flip" uk-search-icon></button>
                     <input style="border-radius: 9px; text-align: center;" name="link" type="Url" placeholder="Type Your Website Link Here" id="autocomplete" class="uk-search-input uk-form-large" autocomplete="off" >
+                    <input style="background: #ffffff00; border: none; width: 100%; height: 38px; margin-top: 5px; position: absolute;" type="text" name="password" autocomplete="off" >
                 </form>
             </div>
         </div>
@@ -46,7 +47,7 @@
                 <h2>how can you contact with us ? ? </h2>
                 <p class="uk-text-lead">if you have any problem contact with us from now .</p>
                 <p class="uk-margin-medium-top">
-                    <a href="mailto:shs1bader@gmail.com" class="uk-button uk-button-primary uk-button-large">Contact Support</a>
+                    <a href=" " class="uk-button uk-button-primary uk-button-large">Contact Support</a>
                 </p>
             </div>
         </div>

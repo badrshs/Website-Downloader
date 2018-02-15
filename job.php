@@ -3,6 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
  
+ //if($_POST['password']=="123") //there is hidden input with password name if you want to use it uncomment this
 if(isset($_POST['link'])){
 	$URL = $_POST['link'];
 	
@@ -24,7 +25,7 @@ $Filename = "$zip.zip";
 $attachment_location=$Filename;
 
 if (file_exists($attachment_location)) {
- header('location:http://104.154.155.121/'.$Filename);
+ header('location:'.'http://'.$_SERVER['HTTP_HOST'].'/'.$Filename);
  
  
      die();
