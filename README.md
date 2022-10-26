@@ -11,7 +11,7 @@ installing steps :
  ###### **apt-get update**
  ###### **apt-get install zip unzip**
 
- ###### **give  permision 7777 job.php**
- ###### **give  permision 7777  the main folder of the project**
+ ###### **give  permision 755 job.php**
+ ###### **give  permision 755  the main folder of the project**
 
 if you have any addition or request , I will be happy to work on it :) 
